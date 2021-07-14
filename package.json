@@ -26,8 +26,10 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-js-minify": "0.0.3",
-    "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.35.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.0.0"
   }
 }

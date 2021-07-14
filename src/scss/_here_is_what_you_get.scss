@@ -1,0 +1,144 @@
+.solution {
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 35px;
+  min-width: 320px;
+
+
+  &-title {
+    @include font-open-sans( 32px, bold, 27px);
+    color: #8D81AC;
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  &_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+
+
+  }
+  .solutions_container {
+    position: relative;
+  }
+
+  &-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px 45px 15px;
+
+  }
+
+  &-image {
+    margin-bottom: 30px;
+    max-width: 110px;
+  }
+
+  &-main {
+    position: relative;
+
+    padding-left: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  &-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
+  &-text {
+    @include font-lato-sans( 14px, normal, 20px);
+    text-align: center;
+    color: #848e97;
+
+
+  }
+
+
+  &__editor {
+    background-image: url("../img/fork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    position: absolute;
+
+
+  }
+}
+
+@media (min-width: 481px) {
+  .solution_description-block {
+    padding: 0 30px 55px 30px;
+  }
+
+
+  .solution__editor {
+    height: 760px;
+
+  }
+}
+
+
+@media (min-width: 993px) {
+  .solution {
+    justify-content: center;
+    position: relative;
+    padding: 0;
+
+
+    &-title {
+      font-family: "Montserrat", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      grid-area: title;
+      margin: 0;
+    }
+
+    &_description {
+      grid-area: description;
+      padding: 0;
+    }
+
+    &-block {
+      padding: 0 90px 55px 0;
+    }
+
+    &-main {
+      padding-left: 25px;
+
+    }
+
+    &__editor {
+      position: absolute;
+      right: 0;
+      width: 52%;
+      top: 16%;
+      height: 80%;
+      grid-area: editor;
+      margin: 0;
+    }
+
+    &_container {
+      padding-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 'description title' 'description editor';
+      width: 1200px;
+    }
+  }
+}

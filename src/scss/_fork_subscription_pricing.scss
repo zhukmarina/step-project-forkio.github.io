@@ -1,0 +1,205 @@
+.container_pricing {
+  text-align: center;
+}
+.pricing {
+  background-image: url("../img/Layer 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+
+  &__title {
+    @include font-open-sans( 28px, bold, 55px);
+    color: #ffffff;
+    margin-bottom: 53px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.pricing__item {
+  background-color: rgba(255, 255, 255, 0.11);
+  flex-basis: 80%;
+  height: 457px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+
+
+  &-title {
+    background-color: rgba(255, 255, 255, 0.06);
+    //padding-top: 36px;
+    //padding-bottom: 36px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  &-price {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    position: relative;
+  }
+
+  .pricing__item-price::after {
+    content: 'per month';
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    left: calc(50% - 35px);
+    position: absolute;
+    color: #FFFFFF;
+  }
+
+  &-description {
+    @include font-open-sans( 16px, normal, 26px);
+    color: #ffffff;
+    position: relative;
+
+  }
+
+  .pricing__item-description::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #8d81ac;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: -24px;
+    left: calc(50% - 30px);
+  }
+
+  &-btn {
+    @include font-open-sans( 15px, normal, 42px);
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 38px;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #7f6d78;
+    transition: 0.3s;
+  }
+}
+
+
+///Active item/////
+
+.pricing__item.pricing__item_active {
+  background-color: rgba(0, 0, 0, 0.13);
+  flex-basis: 90%;
+  height: 560px;
+}
+
+.pricing__item-title {
+  background-color: rgba(0, 0, 0, 0.11);
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+
+.pricing__item-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 82px;
+
+}
+
+.pricing__item-description {
+  margin-top: 50px;
+
+
+  &::before {
+    top: -40px;
+  }
+}
+
+
+.pricing__item-btn {
+  @include font-open-sans(16px, normal, 52px);
+  width: 190px;
+  height: 52px;
+  border-radius: 26px;
+  margin-bottom: 47px;
+}
+
+
+@media screen and (min-width: 481px) {
+  .pricing {
+    padding-bottom: 45px;
+
+    &__title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 42px;
+      padding-top: 70px;
+      margin-bottom: 47px;
+    }
+
+    &__list {
+      align-items: center;
+    }
+  }
+
+    .pricing__item {
+      flex-basis: 35%;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    /*// Activ item:/!*   */
+
+    .pricing__item.pricing__item_active {
+      flex-basis: 40%;
+      margin-right: 1px;
+      margin-left: 1px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 993px) {
+  .container {
+    max-width: 1220px;
+  }
+
+  .pricing {
+    padding-bottom: 50px;
+
+    &__title {
+      padding-top: 0;
+      margin-bottom: 70px;
+    }
+
+    .pricing__item {
+      flex-basis: 22%;
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-bottom: 50px;
+    }
+
+    ///Active item//////
+
+    .pricing__item.pricing__item_active {
+      flex-basis: 25%;
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+  }
+}
+
