@@ -1,0 +1,131 @@
+.container {
+  min-width: 320px;
+  max-width: 500px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+
+
+}
+.container_editor {
+  text-align: center;
+}
+.editor {
+  padding-top: 121px;
+  padding-bottom: 88px;
+
+
+  &__title {
+    @include font-open-sans( 26px, bold);
+    color: #635C73;
+  }
+
+  &__descrition {
+    @include font-lato-sans( 14px, normal, 15px);
+    margin-top: 24px;
+    text-align: center;
+
+  }
+
+  &-actions {
+    margin-top: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-top: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+
+  }
+}
+
+  .editor-actions__btn {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+    color: #24292e;
+    border: 1px solid rgba(27, 31, 35, .2);
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    line-height: 20px;
+    padding: 2px 9px;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:hover {
+      background-image: linear-gradient(-180deg, #fafbfc, #d1d9df 90%);
+      border-color: rgba(51, 48, 48, 0.4);
+    }
+  }
+
+    .editor-actions__btn_icon {
+      vertical-align: text-bottom !important;
+      text-align: center;
+    }
+
+    .editor-actions__count {
+      @include font-open-sans( 12px, bold, 20px);
+      background-color: #fff;
+      border: 1px solid rgba(27, 31, 35, .2);
+      border-bottom-right-radius: 3px;
+      border-left: 0;
+      border-top-right-radius: 3px;
+      color: #24292e;
+      padding: 2px 9px;
+      vertical-align: middle;
+      display: inline-block;
+
+    }
+
+
+@media screen and (min-width: 481px) {
+
+  .container {
+    max-width: 1012px;
+  }
+  .editor {
+    padding-top: 156px;
+    padding-bottom: 98px;
+
+    &__title {
+      font-size: 42px;
+    }
+    &__descrition {
+      @include font-lato-sans( 21px, normal, 23px);
+      width: 90%;
+      display: inline-block;
+      margin-top: 38px;
+    }
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 993px) {
+  .container {
+    max-width: 1200px;
+  }
+  .editor {
+    padding: 129px 0 70px 0;
+
+
+    &__title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 54px;
+
+    }
+
+    &__descrition {
+      width: 70%;
+    }
+  }
+}
