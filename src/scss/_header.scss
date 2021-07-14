@@ -149,6 +149,7 @@
     text-align: center;
     color: $btn-color;
     margin-bottom: 388px;
+    margin-top: 19px;
     @include flex-position(normal,normal,column);
 }
 
@@ -177,10 +178,11 @@
     .header{
         min-width: 481px;
         max-width: 992px;
-        width: 100%;        
+              
      
 
     &_top-menu{
+        
         width: 100%;
         display: flex;
         align-items: center;
@@ -191,6 +193,7 @@
 
     .logo-box{
         display: flex;
+        align-items: center;
     }  
     
     .logo-box h1{
@@ -214,7 +217,7 @@
     }
 
     .nav_list{
-        
+        min-width: 500px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -250,11 +253,12 @@
 
     .banner_tittle{
         font-size: 72px;        
-        margin-top: 63px;
+        margin-top: 73px;
     }
 
     .banner_text{        
         @include font-lato-sans( 24px, normal, 24px); 
+        min-width: 505px;
     }
 }
 
@@ -283,6 +287,10 @@
 
     .banner_tittle{
         margin-top: 63px;
+    }
+
+    .banner_span{
+        margin-top: 19px;
     }
 
     .banner_download:hover{
