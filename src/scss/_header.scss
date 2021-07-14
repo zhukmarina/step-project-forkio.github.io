@@ -3,7 +3,9 @@
     max-width: 480px;
     background-image: url("../img/loptop.png");
     background-size: inherit;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 718px;    
     
     &_top-menu{
@@ -21,6 +23,7 @@
     height: 41px;    
     background-image: url(../img/Logo.svg);
     background-repeat: no-repeat;
+    
     display: inline-block;
 }
 
