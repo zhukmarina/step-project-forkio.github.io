@@ -1,0 +1,92 @@
+.people_are_talking{
+    min-width: 320px;
+    max-width: 480px;
+    background-image: url("../img/testmonials-bg.png");
+    background-size: cover;
+    background-position: center;
+    border: solid transparent 1px;
+}
+
+.talking_title{
+    @include font-open-sans( 36px, bold, 48px);    
+    color: $link-color;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.talking_description{
+    @include flex-position(center,normal,column);    
+}
+
+.talking_item{
+    @include font-lato-sans( 16px, bold, 24px);    
+    font-style: italic;    
+    text-align: center;
+    color: $link-color;
+    margin-top: 45px;
+    width: 270px;
+}
+
+.talking_footer{
+    @include font-lato-sans( 14px, normal, 21px);     
+    text-align: center;
+    color: #A291A5;
+    margin: 37px 35px 15px 34px;
+}
+
+hr{
+    width: 245px;
+    height: 2px;
+    background: #645766;
+    border: transparent;
+}
+
+@media(min-width:481px) {
+
+    .people_are_talking{
+        min-width:481px;
+        max-width: 992px;
+    }
+
+    .talking_description{
+        @include flex-position(center,space-around,row);        
+        flex-wrap: wrap;          
+    }
+
+    .talking_item{        
+        margin-top: 58px;
+        width: 345px;
+    }
+}
+
+@media(min-width:481px) {
+
+    .talking_title{        
+        margin-top: 110px;
+        font-size: 42px;
+        line-height: 44px;
+        
+    }
+
+    hr{
+        width: 555px;        
+    }
+}
+
+@media(min-width:993px){
+
+    .people_are_talking{
+        margin: 0 auto;
+        max-width: 100%;
+        min-width: 993px;
+    }
+
+    .talking_title{
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    hr{
+        width: 780px;        
+    }
+}

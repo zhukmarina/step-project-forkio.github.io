@@ -1,0 +1,312 @@
+.header{
+    min-width: 320px;
+    max-width: 480px;
+    background-image: url("../img/loptop.png");
+    background-size: inherit;
+    background-position: center;
+    height: 718px;    
+    
+    &_top-menu{
+        background-color: #27262A;        
+        width: 100%;
+        height: 103px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;        
+    }    
+}
+
+.logo-pic{
+    width: 43px;
+    height: 41px;    
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.logo-box h1{
+    display: none;
+}
+
+.buy_now {
+    text-decoration: none;       
+    @include font-open-sans( 15px, bold, 15px); 
+    background: $btn-color;
+    color: $link-color;
+    border-radius: 40px;
+    width: 119px;
+    height: 37px;
+    @include flex-position(center,center);   
+}
+
+.nav_menu{
+    display: none;
+}
+
+.nav_menu.active{
+    display: block;
+    margin: 0 auto;
+    background-color: #333333;
+    width: 292px;
+    height: 379px;
+    padding: 0px;
+    position: absolute;    
+    left: 50%;
+    margin-left: -150px;
+    top: 111px;
+    
+}
+
+.nav_list{    
+    margin: 0 ;    
+    padding: 0px;   
+    
+}
+
+.nav_item{
+    list-style-type: none;
+    width: 292px;
+    height: 88px;
+    border-bottom: 3px solid #3B3B3B;
+    @include flex-position(center,flex-start);  
+
+
+& a{
+    text-decoration: none;       
+    color: $link-color;
+    @include font-open-sans( 26px, normal, 26px);   
+    margin-left: 37px;
+}
+
+& a:hover{
+    border-left: solid 8px $btn-color;
+    color: $btn-color;
+    padding:15px 29px;
+    margin-left: 0px;
+}
+}
+
+.burger {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;    
+
+
+& span, &:after, &:before{
+    height: 3px;
+    width: 26px;
+    position: absolute;
+    background: $link-color;
+    margin: 0px 10px;
+    border-radius: 8px;
+}
+& span{
+    top: 18px;
+}
+&:after, &:before{
+    content: '';
+}
+&:after{
+    bottom: 5px;
+}
+&:before{
+    top: 9px;
+}
+
+&.open-menu span {
+    opacity:0; 
+    transition: 0.5s; 
+}
+&.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+}
+&.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+}
+}
+
+.banner{
+    @include flex-position(center,normal,column);  
+
+&_tittle{
+    @include font-open-sans( 48px, bold, 48px);    
+    color: $link-color; 
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+&_text{
+    @include font-open-sans( 18px, normal, 24px);    
+    text-align: center;
+    color: $btn-color;
+    margin-bottom: 388px;
+    @include flex-position(normal,normal,column);
+}
+
+&_span{
+    @include font-open-sans( 14px, normal, 14px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #848E97;
+    margin-top: 13px;
+}
+
+&_download{    
+    background: $btn-color;    
+    border-radius: 40px;
+    width: 290px;
+    height: 45px;
+    @include flex-position(center,center);
+    text-decoration: none;       
+    color: $link-color;
+    @include font-open-sans( 18px, normal, 20px); 
+}
+}
+
+
+@media(min-width:481px) {
+    .header{
+        min-width: 481px;
+        max-width: 992px;
+        width: 100%;        
+     
+
+    &_top-menu{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    } 
+
+    .logo-box{
+        display: flex;
+    }  
+    
+    .logo-box h1{
+        display: inline-block;
+        color: $btn-color;
+        @include font-lato-sans( 20px, bold, 16px);      
+        text-transform: uppercase;
+    }
+
+    .burger{
+        display: none;
+    }  
+
+    .nav_menu{
+        display: block;
+        background: transparent;
+        width: 100%;            
+        position: static;   
+        align-self: flex-end;  
+    
+    }
+
+    .nav_list{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav_item{
+        display: inline-block;
+        background: transparent;
+        height: auto;
+        width: auto;
+        border: none;                 
+
+    & a {
+        color: $btn-color;
+        margin: 0;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    & a:hover{
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        
+    }    
+    }
+
+    .buy_now{
+        width: 145px;  
+          
+    }
+
+    .banner_tittle{
+        font-size: 72px;        
+        margin-top: 63px;
+    }
+
+    .banner_text{        
+        @include font-lato-sans( 24px, normal, 24px); 
+    }
+}
+
+@media(min-width:993px){
+    .header{
+        min-width: 993px;
+        max-width: 100%;
+        margin: 0 auto;
+    
+    
+    &_top-menu{
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    }
+
+    .nav_menu{            
+        background: transparent;
+        width:527px;        
+        position: static;        
+        padding-left: 150px;
+        align-self: center;
+    }
+
+    .banner_tittle{
+        margin-top: 63px;
+    }
+
+    .banner_download:hover{
+        background: $link-color;
+        border: 2px solid $btn-color;
+        color: $btn-color; 
+        width: 288px;
+        height: 43px;
+    }
+    
+    .buy_now:hover{
+        background: $link-color;
+        border: 2px solid $btn-color;
+        color: $btn-color;  
+        width: 143px;
+        height:35px;
+    }
+    
+    .nav_menu a:hover{
+        color: $link-color;
+    }
+
+    .logo-box:hover h1{
+        color: $link-color;
+    }
+
+    .logo-box:hover .logo-pic{
+        background-image: url(../img/logo-hover.svg);
+    }
+}

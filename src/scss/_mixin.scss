@@ -1,0 +1,17 @@
+@mixin flex-position($align-items: false, $justify-content: false, $fl-dir: false) {
+    display: flex;
+     @if $align-items { align-items: $align-items; }
+       @if $justify-content { justify-content: $justify-content; } 
+        @if $fl-dir { flex-direction: $fl-dir; } }
+
+@mixin font-open-sans($size: false, $weight: false, $lh: false) {
+     font-family:'Montserrat', sans-serif;
+      @if $size { font-size: $size; }
+        @if $weight { font-weight: $weight; } 
+         @if $lh { line-height: $lh; } }
+
+@mixin font-lato-sans($size: false, $weight: false, $lh: false) {
+      font-family:'Lato',sans-serif;
+           @if $size { font-size: $size; }
+             @if $weight { font-weight: $weight; } 
+              @if $lh { line-height: $lh; } }                     
