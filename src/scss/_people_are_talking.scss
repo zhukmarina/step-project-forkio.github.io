@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center;
     border: solid transparent 1px;
+   
 }
 
 .talking_title{
@@ -57,9 +58,7 @@ hr{
         margin-top: 58px;
         width: 345px;
     }
-}
 
-@media(min-width:481px) {
 
     .talking_title{        
         margin-top: 110px;
@@ -80,6 +79,13 @@ hr{
         max-width: 100%;
         min-width: 993px;
     }
+
+    .talking_description{
+        max-width: 1200px;
+        margin: 0 auto;       
+    }
+
+
 
     .talking_title{
         font-size: 48px;
