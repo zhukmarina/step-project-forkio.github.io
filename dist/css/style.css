@@ -381,7 +381,7 @@ table {
 }
 .container {
   min-width: 320px;
-  max-width: 500px;
+  max-width: 480px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -482,8 +482,12 @@ table {
     display: inline-block;
     margin-top: 38px;
   }
+
+  .editor__title {
+    font-size: 42px;
+  }
 }
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 481px) and (min-width: 993px) {
   .container {
     max-width: 1200px;
   }
@@ -500,121 +504,98 @@ table {
     width: 70%;
   }
 }
-.solution {
-  background-color: #F4F4F4;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 35px;
-  min-width: 320px;
+.what-you-get {
+  margin-top: 0;
+  padding-top: 100px;
+  text-align: center;
 }
-.solution-title {
+.what-you-get__title {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: bold;
-  line-height: 27px;
-  color: #8D81AC;
-  margin: 0 15px;
-  text-align: center;
+  line-height: 38px;
+  color: #8d81ac;
 }
-.solution_description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 35px;
+.what-you-get__content--img {
+  margin-top: 38px;
 }
-.solution .solutions_container {
-  position: relative;
-}
-.solution-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 15px 45px 15px;
-}
-.solution-image {
-  margin-bottom: 30px;
-  max-width: 110px;
-}
-.solution-main {
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 35px;
-  display: flex;
-  flex-direction: column;
-}
-.solution-title {
+.what-you-get__content--title {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  margin-bottom: 20px;
-  text-align: center;
+  font-weight: normal;
+  line-height: 16px;
+  color: #323232;
+  margin-top: 23px;
 }
-.solution-text {
+.what-you-get__content--text {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  line-height: 20px;
-  text-align: center;
+  line-height: 21px;
   color: #848e97;
+  margin-top: 14px;
 }
-.solution__editor {
-  background-image: url("../img/fork.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 320px;
-  position: absolute;
+.what-you-get__code {
+  display: block;
+  margin-top: 64px;
+}
+.what-you-get__code__code--img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
 }
 
-@media (min-width: 481px) {
-  .solution_description-block {
-    padding: 0 30px 55px 30px;
+@media screen and (min-width: 481px) {
+  .what-you-get__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 44px;
   }
-
-  .solution__editor {
-    height: 760px;
+  .what-you-get__content {
+    display: grid;
+    grid-template-columns: 111px 1fr;
+    gap: 23px;
+    row-gap: 65px;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  .what-you-get__content__content--img {
+    margin-top: 0;
+  }
+  .what-you-get__content .wrapper {
+    text-align: left;
+  }
+  .what-you-get__content--title {
+    margin-top: 0;
   }
 }
-@media (min-width: 993px) {
-  .solution {
-    justify-content: center;
-    position: relative;
-    padding: 0;
+@media screen and (min-width: 993px) {
+  .what-you-get {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content title" "content code";
+    background-color: #F4F4F4;
+    padding-bottom: 60px;
   }
-  .solution-title {
+
+  .what-you-get__content {
+    grid-area: content;
+    margin-top: 0;
+    padding-left: 90px;
+  }
+
+  .what-you-get title {
+    grid-area: title;
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
-    font-weight: 700;
-    grid-area: title;
-    margin: 0;
+    font-weight: bold;
+    line-height: 50px;
   }
-  .solution_description {
-    grid-area: description;
-    padding: 0;
-  }
-  .solution-block {
-    padding: 0 90px 55px 0;
-  }
-  .solution-main {
-    padding-left: 25px;
-  }
-  .solution__editor {
-    position: absolute;
-    right: 0;
-    width: 52%;
-    top: 16%;
-    height: 80%;
-    grid-area: editor;
-    margin: 0;
-  }
-  .solution_container {
-    padding-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "description title" "description editor";
-    width: 1200px;
+
+  .what-you-get__code {
+    grid-area: code;
+    margin-top: 19px;
   }
 }
 .people_are_talking {
@@ -860,8 +841,9 @@ hr {
   }
   .pricing__title {
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
     font-size: 42px;
+    font-weight: bold;
+    line-height: 50px;
     padding-top: 70px;
     margin-bottom: 47px;
   }
@@ -892,8 +874,7 @@ hr {
     padding-bottom: 50px;
   }
   .pricing__title {
-    padding-top: 0;
-    margin-bottom: 70px;
+    padding-top: 110px;
   }
   .pricing .pricing__item {
     flex-basis: 22%;

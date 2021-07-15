@@ -1,10 +1,8 @@
 .container {
   min-width: 320px;
-  max-width: 500px;
+  max-width: 480px;
   padding: 0 10px;
   margin: 0 auto;
-
-
 
 }
 .container_editor {
@@ -95,37 +93,37 @@
     &__title {
       font-size: 42px;
     }
+
     &__descrition {
-      @include font-lato-sans( 21px, normal, 23px);
+      @include font-lato-sans(21px, normal, 23px);
       width: 90%;
       display: inline-block;
       margin-top: 38px;
     }
   }
-}
-
-
-
-
-
-
-@media screen and (min-width: 993px) {
-  .container {
-    max-width: 1200px;
+  .editor__title {
+    font-size: 42px;
   }
-  .editor {
-    padding: 129px 0 70px 0;
 
 
-    &__title {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 54px;
-
+  @media screen and (min-width: 993px) {
+    .container {
+      max-width: 1200px;
     }
+    .editor {
+      padding: 129px 0 70px 0;
 
-    &__descrition {
-      width: 70%;
+
+      &__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+
+      }
+
+      &__descrition {
+        width: 70%;
+      }
     }
   }
 }
