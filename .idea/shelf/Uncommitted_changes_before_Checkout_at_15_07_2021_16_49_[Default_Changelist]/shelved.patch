@@ -1,0 +1,452 @@
+Index: src/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n \r\n    <link rel=\"stylesheet\" href=\"./css/style.min.css\">\r\n    \r\n    <title>Forkio</title>\r\n</head>\r\n<body>\r\n    <header class=\"header\">\r\n        \r\n            <div class=\"header_top-menu\">\r\n                <div class=\"logo-box\">\r\n                <!-- <img src=\"./img/Logo.svg\" alt=\"\" srcset=\"\"> -->\r\n                <div class=\"logo-pic\"></div>\r\n                <h1>Forkio</h1>\r\n                </div>                \r\n            \r\n            <nav class=\"nav_menu\">\r\n                <ul class=\"nav_list\">\r\n                    <li class=\"nav_item\"><a href=\"#\">Overview</a></li>\r\n                    <li class=\"nav_item\"><a href=\"#\">About Fork</a> </li>\r\n                    <li class=\"nav_item\"><a href=\"#\">Buying Options</a> </li>\r\n                    <li class=\"nav_item\"><a href=\"#\">Support</a> </li>\r\n                </ul>\r\n            </nav>\r\n\r\n            <div >\r\n                <a class=\"buy_now\" href=\"#\">Buy Now</a>\r\n            </div>            \r\n            <div class=\"burger\"><span></span></div>\r\n            \r\n        </div>\r\n        \r\n        <div class=\"banner\">\r\n            <h1 class=\"banner_tittle\">Fork App</h1>\r\n            <p class=\"banner_text\">A Real Gamechanger In The World Of Web-Development\r\n                <span class=\"banner_span\">v. 2.8 For Mac and Windows</span></p>\r\n            \r\n        \r\n        <div ><a class=\"banner_download\" href=\"#\">Download For Free Now</a></div>\r\n            <p class=\"banner_span\">Unlimited 30-Days Trial Period</p>\r\n        </div>\r\n    </header>\r\n\r\n    <section class='editor'>\r\n        <div class=\"container_editor container\">\r\n            <h1 class=\"editor__title\">Revolutionary editor</h1>\r\n            <p class=\"editor__descrition\">Aenean cursus imperdiet nisl id\r\n                fermentum. Aliquam pharetra dui laoreet vulputate dignissim.<br>\r\n                Sed id metus id quam auctor molestie eget ut augue.\r\n            </p>\r\n            <ul class=\"editor-actions\">\r\n                <li class=\"editor-actions__item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z\"></path>\r\n                        </svg>\r\n                        Watch\r\n                    </a><a href=\"#\" class=\"editor-actions__count\">\r\n                    1,397\r\n                </a>\r\n                </li>\r\n                <li class=\"editor-actions__item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z\"></path>\r\n                        </svg>\r\n                        Star\r\n                    </a><a href=\"#\" class=\"editor-actions__count\">\r\n                    21,038\r\n                </a>\r\n                </li>\r\n                <li class=\"editor-actions__item last-item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 10 16\" version=\"1.1\" width=\"10\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z\"></path>\r\n                        </svg>\r\n                        Fork\r\n                    </a><a class=\"editor-actions__count\" href=\"#\">\r\n                    4,391\r\n                </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n    <section class=\"solutions\">\r\n        <div class=\"solutions_container container\">\r\n            <div class=\"solution-title\">Here is what you get\r\n                <!--        <i class=\"fas fa-angle-left solution__title-left\"></i>-->\r\n\r\n                <!--        <i class=\"fas fa-angle-right solution__title-right\"></i>-->\r\n            </div>\r\n            <div class=\"solution_description\">\r\n                <div class=\"solution_description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item _ibg\" src=\"img/icon1.png\" alt=\"#\">\r\n                    </div>\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Creatred to Make The Web Better</h3>\r\n                        <p class=\"solution_description-block-main-text\">Aenean cursus imperdiet nisl id fermentum.\r\n                            Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon2.png\" alt=\"#\">\r\n                    </div>\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Incredibly Powerful Tool</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac.\r\n                            Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon3.png\" alt=\"#\">\r\n                    </div>\r\n\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Experimental Stuff</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon4.png\" alt=\"#\">\r\n                    </div>\r\n\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Creatred to Make The Web Better</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"solution__editor\">\r\n                <img src=\"img/fork.jpg\" alt=\"#\">\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </section>\r\n\r\n    <section class=\"people_are_talking\">\r\n        <h1 class=\"talking_title\">People Are Talking About Fork</h1>\r\n        <div class=\"talking_description\">\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/smashing.png\" alt=\"\">\r\n                <p class=\"item_text\">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/codrops.png\" alt=\"\">\r\n                <p class=\"item_text\">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/w.png\" alt=\"\">\r\n                <p class=\"item_text\">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/pixel.png\" alt=\"\">\r\n                <p class=\"item_text\">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/creative.png\" alt=\"\">\r\n                <p class=\"item_text\">Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/tnw.png\" alt=\"\">\r\n                <p class=\"item_text\">Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>\r\n            </div>\r\n        </div>\r\n        <p class=\"talking_footer\">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>\r\n        <hr> \r\n    </section>\r\n\r\n    <section class='pricing'>\r\n        <div class=\"container container_pricing\">\r\n            <h2 class=\"pricing__title\">Fork Subscription Pricing</h2>\r\n            <ul class=\"pricing__list\">\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">Students</div>\r\n                    <span class=\"pricing__item-price\">$29</span>\r\n                    <p class=\"pricing__item-description\">Personal License</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">professional</div>\r\n                    <span class=\"pricing__item-price\">$59</span>\r\n                    <p class=\"pricing__item-description\">Professional License<br/>Email Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item pricing__item_active\">\r\n                    <div class=\"pricing__item-title\">agency</div>\r\n                    <span class=\"pricing__item-price\">$99</span>\r\n                    <p class=\"pricing__item-description\">1-12 Team Members<br/>Phone Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">enterprise</div>\r\n                    <span class=\"pricing__item-price\">$159</span>\r\n                    <p class=\"pricing__item-description\">Unlimited Team Members<br/>24/ 7 Phone Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n\r\n    <script src=\"./js/common.min.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.html b/src/index.html
+--- a/src/index.html	
++++ b/src/index.html	
+@@ -47,6 +47,8 @@
+         </div>
+     </header>
+ 
++<!--    /////revolutionary editor//////-->
++
+     <section class='editor'>
+         <div class="container_editor container">
+             <h1 class="editor__title">Revolutionary editor</h1>
+@@ -94,69 +96,62 @@
+             </ul>
+         </div>
+     </section>
+-    <section class="solutions">
+-        <div class="solutions_container container">
+-            <div class="solution-title">Here is what you get
+-                <!--        <i class="fas fa-angle-left solution__title-left"></i>-->
+ 
+-                <!--        <i class="fas fa-angle-right solution__title-right"></i>-->
++<!--    ///////what you get//////-->
++
++    <section class="what-you-get">
++        <h2 class="what-you-get__title">&ltHere is what you get&gt</h2>
++        <div class="what-you-get__content">
++            <img class="what-you-get__content--img" src="img/icon1.png" alt="make_web_better">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Creatred to Make The Web Better</h3>
++                <p class="what-you-get__content--text">
++                    Aenean cursus imperdiet nisl id fermentum.
++                    Aliquam pharetra dui laoreet vulputate dignissim.
++                    Sed id metus id quam auctor molestie eget ut augue.
++                </p>
+             </div>
+-            <div class="solution_description">
+-                <div class="solution_description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item _ibg" src="img/icon1.png" alt="#">
+-                    </div>
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Creatred to Make The Web Better</h3>
+-                        <p class="solution_description-block-main-text">Aenean cursus imperdiet nisl id fermentum.
+-                            Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
+-                    </div>
+-                </div>
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon2.png" alt="#">
+-                    </div>
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Incredibly Powerful Tool</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac.
+-                            Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon3.png" alt="#">
+-                    </div>
++
++            <img class="what-you-get__content--img" src="img/icon2.png" alt="powerful_tool">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Incredibly Powerful Tool</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++
++            <img class="what-you-get__content--img" src="img/icon3.png" alt="stuff">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Experimental Stuff</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++
++            <img class="what-you-get__content--img" src="img/icon4.png" alt="clock">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Creatred to Make The Web Better</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++        </div>
+ 
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Experimental Stuff</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
++        <picture class="what-you-get__code">
++            <source media="(max-width: 480px)" srcset="img/fork_small">
++            <img class="what-you-get__code--img" src="img/fork.jpg" alt="code_example">
++        </picture>
+ 
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon4.png" alt="#">
+-                    </div>
+-
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Creatred to Make The Web Better</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
+-            </div>
+-            <div class="solution__editor">
+-                <img src="img/fork.jpg" alt="#">
+-            </div>
+-        </div>
+-        </div>
+     </section>
+ 
++<!--    ////people are talking//////-->
++
+     <section class="people_are_talking">
+         <h1 class="talking_title">People Are Talking About Fork</h1>
+         <div class="talking_description">
+@@ -189,6 +184,8 @@
+         <hr> 
+     </section>
+ 
++<!--    //////pricing///////-->
++
+     <section class='pricing'>
+         <div class="container container_pricing">
+             <h2 class="pricing__title">Fork Subscription Pricing</h2>
+Index: src/scss/_here_is_what_you_get.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.solution {\r\n  background-color: #F4F4F4;\r\n  display: flex;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  padding-top: 35px;\r\n  min-width: 320px;\r\n\r\n\r\n  &-title {\r\n    @include font-open-sans( 32px, bold, 27px);\r\n    color: #8D81AC;\r\n    margin: 0 15px;\r\n    text-align: center;\r\n  }\r\n\r\n  &_description {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding-top: 35px;\r\n\r\n\r\n  }\r\n  .solutions_container {\r\n    position: relative;\r\n  }\r\n\r\n  &-block {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    text-align: center;\r\n    padding: 0 15px 45px 15px;\r\n\r\n  }\r\n\r\n  &-image {\r\n    margin-bottom: 30px;\r\n    max-width: 110px;\r\n  }\r\n\r\n  &-main {\r\n    position: relative;\r\n\r\n    padding-left: 25px;\r\n    margin-bottom: 35px;\r\n    display: flex;\r\n    flex-direction: column;\r\n\r\n\r\n  }\r\n\r\n  &-title {\r\n    font-family: \"Montserrat\", sans-serif;\r\n    font-size: 16px;\r\n    margin-bottom: 20px;\r\n    text-align: center;\r\n\r\n  }\r\n\r\n  &-text {\r\n    @include font-lato-sans( 14px, normal, 20px);\r\n    text-align: center;\r\n    color: #848e97;\r\n\r\n\r\n  }\r\n\r\n\r\n  &__editor {\r\n    background-image: url(\"../img/fork.jpg\");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    height: 320px;\r\n    position: absolute;\r\n\r\n\r\n  }\r\n}\r\n\r\n@media (min-width: 481px) {\r\n  .solution_description-block {\r\n    padding: 0 30px 55px 30px;\r\n  }\r\n\r\n\r\n  .solution__editor {\r\n    height: 760px;\r\n\r\n  }\r\n}\r\n\r\n\r\n@media (min-width: 993px) {\r\n  .solution {\r\n    justify-content: center;\r\n    position: relative;\r\n    padding: 0;\r\n\r\n\r\n    &-title {\r\n      font-family: \"Montserrat\", sans-serif;\r\n      font-size: 48px;\r\n      font-weight: 700;\r\n      grid-area: title;\r\n      margin: 0;\r\n    }\r\n\r\n    &_description {\r\n      grid-area: description;\r\n      padding: 0;\r\n    }\r\n\r\n    &-block {\r\n      padding: 0 90px 55px 0;\r\n    }\r\n\r\n    &-main {\r\n      padding-left: 25px;\r\n\r\n    }\r\n\r\n    &__editor {\r\n      position: absolute;\r\n      right: 0;\r\n      width: 52%;\r\n      top: 16%;\r\n      height: 80%;\r\n      grid-area: editor;\r\n      margin: 0;\r\n    }\r\n\r\n    &_container {\r\n      padding-top: 80px;\r\n      display: grid;\r\n      grid-template-columns: repeat(2, 1fr);\r\n      grid-template-areas: 'description title' 'description editor';\r\n      width: 1200px;\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/scss/_here_is_what_you_get.scss b/src/scss/_here_is_what_you_get.scss
+--- a/src/scss/_here_is_what_you_get.scss	
++++ b/src/scss/_here_is_what_you_get.scss	
+@@ -1,144 +1,0 @@
+-.solution {
+-  background-color: #F4F4F4;
+-  display: flex;
+-  align-items: center;
+-  flex-direction: column;
+-  padding-top: 35px;
+-  min-width: 320px;
+-
+-
+-  &-title {
+-    @include font-open-sans( 32px, bold, 27px);
+-    color: #8D81AC;
+-    margin: 0 15px;
+-    text-align: center;
+-  }
+-
+-  &_description {
+-    display: flex;
+-    flex-direction: column;
+-    align-items: center;
+-    justify-content: center;
+-    padding-top: 35px;
+-
+-
+-  }
+-  .solutions_container {
+-    position: relative;
+-  }
+-
+-  &-block {
+-    display: flex;
+-    flex-direction: column;
+-    justify-content: center;
+-    align-items: center;
+-    text-align: center;
+-    padding: 0 15px 45px 15px;
+-
+-  }
+-
+-  &-image {
+-    margin-bottom: 30px;
+-    max-width: 110px;
+-  }
+-
+-  &-main {
+-    position: relative;
+-
+-    padding-left: 25px;
+-    margin-bottom: 35px;
+-    display: flex;
+-    flex-direction: column;
+-
+-
+-  }
+-
+-  &-title {
+-    font-family: "Montserrat", sans-serif;
+-    font-size: 16px;
+-    margin-bottom: 20px;
+-    text-align: center;
+-
+-  }
+-
+-  &-text {
+-    @include font-lato-sans( 14px, normal, 20px);
+-    text-align: center;
+-    color: #848e97;
+-
+-
+-  }
+-
+-
+-  &__editor {
+-    background-image: url("../img/fork.jpg");
+-    background-repeat: no-repeat;
+-    background-size: cover;
+-    height: 320px;
+-    position: absolute;
+-
+-
+-  }
+-}
+-
+-@media (min-width: 481px) {
+-  .solution_description-block {
+-    padding: 0 30px 55px 30px;
+-  }
+-
+-
+-  .solution__editor {
+-    height: 760px;
+-
+-  }
+-}
+-
+-
+-@media (min-width: 993px) {
+-  .solution {
+-    justify-content: center;
+-    position: relative;
+-    padding: 0;
+-
+-
+-    &-title {
+-      font-family: "Montserrat", sans-serif;
+-      font-size: 48px;
+-      font-weight: 700;
+-      grid-area: title;
+-      margin: 0;
+-    }
+-
+-    &_description {
+-      grid-area: description;
+-      padding: 0;
+-    }
+-
+-    &-block {
+-      padding: 0 90px 55px 0;
+-    }
+-
+-    &-main {
+-      padding-left: 25px;
+-
+-    }
+-
+-    &__editor {
+-      position: absolute;
+-      right: 0;
+-      width: 52%;
+-      top: 16%;
+-      height: 80%;
+-      grid-area: editor;
+-      margin: 0;
+-    }
+-
+-    &_container {
+-      padding-top: 80px;
+-      display: grid;
+-      grid-template-columns: repeat(2, 1fr);
+-      grid-template-areas: 'description title' 'description editor';
+-      width: 1200px;
+-    }
+-  }
+-}
+\ No newline at end of file
+Index: dist/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n \r\n    <link rel=\"stylesheet\" href=\"./css/style.min.css\">\r\n    \r\n    <title>Forkio</title>\r\n</head>\r\n<body>\r\n    <header class=\"header\">\r\n        \r\n            <div class=\"header_top-menu\">\r\n                <div class=\"logo-box\">\r\n                <!-- <img src=\"./img/Logo.svg\" alt=\"\" srcset=\"\"> -->\r\n                <div class=\"logo-pic\"></div>\r\n                <h1>Forkio</h1>\r\n                </div>                \r\n            \r\n            <nav class=\"nav_menu\">\r\n                <ul class=\"nav_list\">\r\n                    <li class=\"nav_item\"><a href=\"#\">Overview</a></li>\r\n                    <li class=\"nav_item\"><a href=\"#\">About Fork</a> </li>\r\n                    <li class=\"nav_item\"><a href=\"#\">Buying Options</a> </li>\r\n                    <li class=\"nav_item\"><a href=\"#\">Support</a> </li>\r\n                </ul>\r\n            </nav>\r\n\r\n            <div >\r\n                <a class=\"buy_now\" href=\"#\">Buy Now</a>\r\n            </div>            \r\n            <div class=\"burger\"><span></span></div>\r\n            \r\n        </div>\r\n        \r\n        <div class=\"banner\">\r\n            <h1 class=\"banner_tittle\">Fork App</h1>\r\n            <p class=\"banner_text\">A Real Gamechanger In The World Of Web-Development\r\n                <span class=\"banner_span\">v. 2.8 For Mac and Windows</span></p>\r\n            \r\n        \r\n        <div ><a class=\"banner_download\" href=\"#\">Download For Free Now</a></div>\r\n            <p class=\"banner_span\">Unlimited 30-Days Trial Period</p>\r\n        </div>\r\n    </header>\r\n\r\n    <section class='editor'>\r\n        <div class=\"container_editor container\">\r\n            <h1 class=\"editor__title\">Revolutionary editor</h1>\r\n            <p class=\"editor__descrition\">Aenean cursus imperdiet nisl id\r\n                fermentum. Aliquam pharetra dui laoreet vulputate dignissim.<br>\r\n                Sed id metus id quam auctor molestie eget ut augue.\r\n            </p>\r\n            <ul class=\"editor-actions\">\r\n                <li class=\"editor-actions__item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z\"></path>\r\n                        </svg>\r\n                        Watch\r\n                    </a><a href=\"#\" class=\"editor-actions__count\">\r\n                    1,397\r\n                </a>\r\n                </li>\r\n                <li class=\"editor-actions__item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z\"></path>\r\n                        </svg>\r\n                        Star\r\n                    </a><a href=\"#\" class=\"editor-actions__count\">\r\n                    21,038\r\n                </a>\r\n                </li>\r\n                <li class=\"editor-actions__item last-item\">\r\n                    <a href=\"#\" class=\"editor-actions__btn\" rel=\"nofollow\">\r\n                        <svg class=\"editor-actions__btn_icon\" viewBox=\"0 0 10 16\" version=\"1.1\" width=\"10\" height=\"16\"\r\n                             aria-hidden=\"true\">\r\n                            <path fill-rule=\"evenodd\"\r\n                                  d=\"M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z\"></path>\r\n                        </svg>\r\n                        Fork\r\n                    </a><a class=\"editor-actions__count\" href=\"#\">\r\n                    4,391\r\n                </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n    <section class=\"solutions\">\r\n        <div class=\"solutions_container container\">\r\n            <div class=\"solution-title\">Here is what you get\r\n                <!--        <i class=\"fas fa-angle-left solution__title-left\"></i>-->\r\n\r\n                <!--        <i class=\"fas fa-angle-right solution__title-right\"></i>-->\r\n            </div>\r\n            <div class=\"solution_description\">\r\n                <div class=\"solution_description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item _ibg\" src=\"img/icon1.png\" alt=\"#\">\r\n                    </div>\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Creatred to Make The Web Better</h3>\r\n                        <p class=\"solution_description-block-main-text\">Aenean cursus imperdiet nisl id fermentum.\r\n                            Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon2.png\" alt=\"#\">\r\n                    </div>\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Incredibly Powerful Tool</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac.\r\n                            Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon3.png\" alt=\"#\">\r\n                    </div>\r\n\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Experimental Stuff</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <div class=\"solution__description-block\">\r\n                    <div class=\"solution_description-block-image\">\r\n                        <img class=\"solution_description-block-image-item\" src=\"img/icon4.png\" alt=\"#\">\r\n                    </div>\r\n\r\n                    <div class=\"solution_description-block-main\">\r\n                        <h3 class=\"solution_description-block-main-title\">Creatred to Make The Web Better</h3>\r\n                        <p class=\"solution_description-block-main-text\">Maecenas eu dictum felis, a dignissim nibh.\r\n                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"solution__editor\">\r\n                <img src=\"img/fork.jpg\" alt=\"#\">\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </section>\r\n\r\n    <section class=\"people_are_talking\">\r\n        <h1 class=\"talking_title\">People Are Talking About Fork</h1>\r\n        <div class=\"talking_description\">\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/smashing.png\" alt=\"\">\r\n                <p class=\"item_text\">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/codrops.png\" alt=\"\">\r\n                <p class=\"item_text\">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/w.png\" alt=\"\">\r\n                <p class=\"item_text\">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/pixel.png\" alt=\"\">\r\n                <p class=\"item_text\">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/creative.png\" alt=\"\">\r\n                <p class=\"item_text\">Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. </p>\r\n            </div>\r\n            <div class=\"talking_item\">\r\n                <img src=\"./img/tnw.png\" alt=\"\">\r\n                <p class=\"item_text\">Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>\r\n            </div>\r\n        </div>\r\n        <p class=\"talking_footer\">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>\r\n        <hr> \r\n    </section>\r\n\r\n    <section class='pricing'>\r\n        <div class=\"container container_pricing\">\r\n            <h2 class=\"pricing__title\">Fork Subscription Pricing</h2>\r\n            <ul class=\"pricing__list\">\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">Students</div>\r\n                    <span class=\"pricing__item-price\">$29</span>\r\n                    <p class=\"pricing__item-description\">Personal License</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">professional</div>\r\n                    <span class=\"pricing__item-price\">$59</span>\r\n                    <p class=\"pricing__item-description\">Professional License<br/>Email Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item pricing__item_active\">\r\n                    <div class=\"pricing__item-title\">agency</div>\r\n                    <span class=\"pricing__item-price\">$99</span>\r\n                    <p class=\"pricing__item-description\">1-12 Team Members<br/>Phone Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n                <li class=\"pricing__item\">\r\n                    <div class=\"pricing__item-title\">enterprise</div>\r\n                    <span class=\"pricing__item-price\">$159</span>\r\n                    <p class=\"pricing__item-description\">Unlimited Team Members<br/>24/ 7 Phone Support</p>\r\n                    <a href=\"#\" class=\"pricing__item-btn\">purchase</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n\r\n    <script src=\"./js/common.min.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dist/index.html b/dist/index.html
+--- a/dist/index.html	
++++ b/dist/index.html	
+@@ -47,6 +47,8 @@
+         </div>
+     </header>
+ 
++<!--    /////revolutionary editor//////-->
++
+     <section class='editor'>
+         <div class="container_editor container">
+             <h1 class="editor__title">Revolutionary editor</h1>
+@@ -94,69 +96,62 @@
+             </ul>
+         </div>
+     </section>
+-    <section class="solutions">
+-        <div class="solutions_container container">
+-            <div class="solution-title">Here is what you get
+-                <!--        <i class="fas fa-angle-left solution__title-left"></i>-->
+ 
+-                <!--        <i class="fas fa-angle-right solution__title-right"></i>-->
++<!--    ///////what you get//////-->
++
++    <section class="what-you-get">
++        <h2 class="what-you-get__title">&ltHere is what you get&gt</h2>
++        <div class="what-you-get__content">
++            <img class="what-you-get__content--img" src="img/icon1.png" alt="make_web_better">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Creatred to Make The Web Better</h3>
++                <p class="what-you-get__content--text">
++                    Aenean cursus imperdiet nisl id fermentum.
++                    Aliquam pharetra dui laoreet vulputate dignissim.
++                    Sed id metus id quam auctor molestie eget ut augue.
++                </p>
+             </div>
+-            <div class="solution_description">
+-                <div class="solution_description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item _ibg" src="img/icon1.png" alt="#">
+-                    </div>
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Creatred to Make The Web Better</h3>
+-                        <p class="solution_description-block-main-text">Aenean cursus imperdiet nisl id fermentum.
+-                            Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
+-                    </div>
+-                </div>
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon2.png" alt="#">
+-                    </div>
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Incredibly Powerful Tool</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac.
+-                            Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon3.png" alt="#">
+-                    </div>
++
++            <img class="what-you-get__content--img" src="img/icon2.png" alt="powerful_tool">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Incredibly Powerful Tool</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++
++            <img class="what-you-get__content--img" src="img/icon3.png" alt="stuff">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Experimental Stuff</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++
++            <img class="what-you-get__content--img" src="img/icon4.png" alt="clock">
++            <div class="wrapper">
++                <h3 class="what-you-get__content--title">Creatred to Make The Web Better</h3>
++                <p class="what-you-get__content--text">
++                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac.
++                    Curabitur
++                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
++                </p>
++            </div>
++        </div>
+ 
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Experimental Stuff</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
++        <picture class="what-you-get__code">
++            <source media="(max-width: 480px)" srcset="img/fork_small">
++            <img class="what-you-get__code--img" src="img/fork.jpg" alt="code_example">
++        </picture>
+ 
+-
+-                <div class="solution__description-block">
+-                    <div class="solution_description-block-image">
+-                        <img class="solution_description-block-image-item" src="img/icon4.png" alt="#">
+-                    </div>
+-
+-                    <div class="solution_description-block-main">
+-                        <h3 class="solution_description-block-main-title">Creatred to Make The Web Better</h3>
+-                        <p class="solution_description-block-main-text">Maecenas eu dictum felis, a dignissim nibh.
+-                            Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+-                    </div>
+-                </div>
+-            </div>
+-            <div class="solution__editor">
+-                <img src="img/fork.jpg" alt="#">
+-            </div>
+-        </div>
+-        </div>
+     </section>
+ 
++<!--    ////people are talking//////-->
++
+     <section class="people_are_talking">
+         <h1 class="talking_title">People Are Talking About Fork</h1>
+         <div class="talking_description">
+@@ -189,6 +184,8 @@
+         <hr> 
+     </section>
+ 
++<!--    //////pricing///////-->
++
+     <section class='pricing'>
+         <div class="container container_pricing">
+             <h2 class="pricing__title">Fork Subscription Pricing</h2>
