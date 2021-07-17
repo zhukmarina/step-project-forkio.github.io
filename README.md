@@ -1,5 +1,5 @@
 ---
-permalink: /dist/index.html
+permalink:/dist/index.html
 ---
 
 модуль: advanced-html-css
