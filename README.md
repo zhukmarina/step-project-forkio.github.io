@@ -1,3 +1,7 @@
+---
+permalink: /dist/index.html
+---
+
 модуль: advanced-html-css
 
 проект: step-project-forkio
