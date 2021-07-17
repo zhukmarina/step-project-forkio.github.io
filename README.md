@@ -1,5 +1,5 @@
----
-permalink: https://github.com/zhukmarina/step-project-forkio.github.io/blob/52ee83f790b469074e270f69bfa220cc10d36362/src/index.html
+
+permalink: https://github.com/zhukmarina/step-project-forkio.github.io/blob/e6434ba51380a7bb486eaf0205e62dcc560f0452/dist/index.html
 ---
 
 
